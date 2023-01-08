@@ -34,7 +34,6 @@ public class ChessPosition {
 	@Override
 	public String toString() {
 		return "" + column + row;
-		// espaço é para forçar o compilador a entender que é uma concatenação de string, se tirar dá erro
 	}
 
 }
